@@ -25,12 +25,6 @@
         <item name="android:src">@drawable/ic_menu_more</item>
     </style>
 
-    <style name="MySeekBarThemeSave" parent="AppTheme">
-        <item name="android:fontFamily">serif</item>
-        <item name="colorAccent">@color/colorPrimary</item>
-        <item name="colorControlNormal">@color/seekBarControlNormal</item>
-    </style>
-
 
     <style name="MySeekBarThemeSave2" parent="AppTheme">
         <item name="android:fontFamily">serif</item>
@@ -46,13 +40,6 @@
     </style>
 
 
-
-    <style name="AppTheme.Button.Borderless" parent="android:Theme.Holo.Light.DarkActionBar">
-        <item name="android:textColor">@color/textColorPrimary</item>
-        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
-        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
-    </style>
-
     <style name="AppTheme.AdAttribution">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -65,20 +52,6 @@
         <item name="android:height">15dp</item>
     </style>
 
-
-    <style name="MainLeftLinearlayout">
-        <item name="android:background">@drawable/app_main_left</item>
-        <item name="android:layout_marginTop">@dimen/margin_5</item>
-        <item name="android:layout_marginBottom">@dimen/margin_5</item>
-        <item name="android:layout_marginRight">@dimen/margin_3</item>
-    </style>
-
-    <style name="MainRightLinearlayout">
-        <item name="android:background">@drawable/app_main_right</item>
-        <item name="android:layout_marginTop">@dimen/margin_5</item>
-        <item name="android:layout_marginBottom">@dimen/margin_5</item>
-        <item name="android:layout_marginLeft">@dimen/margin_3</item>
-    </style>
 
     <style name="MainImage">
         <item name="android:layout_width">@dimen/_50sdp</item>
@@ -159,13 +132,6 @@
 
 
     <!--    android:forgound="?attr/selectableItemBackground"-->
-    <dimen name="margin_70">70dp</dimen>
-    <dimen name="margin_60">60dp</dimen>
-    <dimen name="margin_45">45dp</dimen>
-    <dimen name="margin_2_5">2.5dp</dimen>
-    <dimen name="margin_24">24dp</dimen>
     <dimen name="margin_26">26dp</dimen>
-    <dimen name="sp12">12sp</dimen>
-    <dimen name="sp10">10sp</dimen>
     <dimen name="sp8">8sp</dimen>
 </resources>
