@@ -81,8 +81,8 @@
     </style>
 
     <style name="MainImage">
-        <item name="android:layout_width">@dimen/margin_45</item>
-        <item name="android:layout_height">@dimen/margin_45</item>
+        <item name="android:layout_width">@dimen/_50sdp</item>
+        <item name="android:layout_height">@dimen/_50sdp</item>
     </style>
 
     <style name="MainText">
