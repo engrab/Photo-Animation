@@ -21,4 +21,16 @@
     <color name="gray">#bfbcbc</color>
     <color name="black20">#202020</color>
     <color name="colorToolsUnSelected">#FFFFFF</color>
+
+    //onboarding colors
+    <color name="background">#F0F4F3</color>
+    <color name="buttontext">#50C2C9</color>
+    //indicator color
+    <color name="inactive">#C4C4C4</color>
+    <color name="active">#50C2C9</color>
+
+
+    <color name="colorRipple">#dd9ac6</color>
+    <color name="start_color">@color/colorRipple</color>
+    <color name="end_color">@color/colorAccent</color>
 </resources>

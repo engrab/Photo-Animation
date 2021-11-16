@@ -26,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <com.codeshare.photomotion.customView.ZoomImageView
+                <com.example.photomotion.customView.ZoomImageView
                     android:id="@+id/imageView"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -39,7 +39,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true">
 
-                    <com.codeshare.photomotion.customView.CustomAnimationView
+                    <com.example.photomotion.customView.CustomAnimationView
                         android:id="@+id/customView"
                         android:visibility="gone"
                         android:layout_width="match_parent"
@@ -216,7 +216,7 @@
 
             </com.google.android.material.floatingactionbutton.FloatingActionButton>
 
-            <com.codeshare.photomotion.customView.LupaImageView
+            <com.example.photomotion.customView.LupaImageView
                 android:id="@+id/imageZoom"
                 android:padding="@dimen/_7sdp"
                 android:layout_width="160dp"
