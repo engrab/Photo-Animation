@@ -10,6 +10,8 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.Handler;
+import android.os.Looper;
 import android.provider.MediaStore;
 import android.text.TextUtils;
 import android.util.Log;
@@ -76,6 +78,7 @@ public class MainActivity extends BaseParentActivity implements OnClickListener 
     private DrawerLayout drawerLayout;
     private Toolbar toolbar;
     ImageView imgMenu;
+    boolean doubleBackToExitPressedOnce = false;
 
 
     ActivityResultLauncher<Intent> cameraResultLauncher = registerForActivityResult(
@@ -206,6 +209,25 @@ public class MainActivity extends BaseParentActivity implements OnClickListener 
         if (ApplicationClass.checkForStoragePermission(this)) {
             ApplicationClass.deleteTemp();
         }
+    }
+
+    public void onBackPressed() {
+        if (doubleBackToExitPressedOnce) {
+            super.onBackPressed();
+            return;
+        }
+
+        doubleBackToExitPressedOnce = true;
+        Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show();
+
+        new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+
+            @Override
+            public void run() {
+                doubleBackToExitPressedOnce = false;
+            }
+        }, 2000);
+
     }
 
     private void initGlid() {
