@@ -20,7 +20,7 @@ public class TutorialActivity extends AppCompatActivity {
 
     ViewPager mSLideViewPager;
     LinearLayout mDotLayout;
-    Button backbtn, nextbtn, skipbtn;
+    Button backbtn, nextbtn, skipbtn, nextFinish;
 
     TextView[] dots;
     ViewPagerAdapter viewPagerAdapter;
@@ -33,6 +33,15 @@ public class TutorialActivity extends AppCompatActivity {
         backbtn = findViewById(R.id.backbtn);
         nextbtn = findViewById(R.id.nextbtn);
         skipbtn = findViewById(R.id.skipButton);
+        nextFinish = findViewById(R.id.nextFinish);
+
+        nextFinish.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(TutorialActivity.this, MainActivity.class));
+                finish();
+            }
+        });
 
         backbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -93,7 +102,7 @@ public class TutorialActivity extends AppCompatActivity {
 
     public void setUpindicator(int position){
 
-        dots = new TextView[3];
+        dots = new TextView[4];
         mDotLayout.removeAllViews();
 
         for (int i = 0 ; i < dots.length ; i++){
@@ -122,9 +131,12 @@ public class TutorialActivity extends AppCompatActivity {
             setUpindicator(position);
 
             nextbtn.setVisibility(View.VISIBLE);
+            nextFinish.setVisibility(View.INVISIBLE);
 
-            if (position==2){
+            if (position==3){
                 nextbtn.setVisibility(View.INVISIBLE);
+                nextFinish.setVisibility(View.VISIBLE);
+
             }
 
             if (position > 0){

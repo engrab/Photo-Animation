@@ -48,10 +48,12 @@
     <string name="heading_one">Path</string>
     <string name="heading_two">Freeze</string>
     <string name="heading_three">Effects</string>
+    <string name="heading_Four">Motion</string>
     //Description
     <string name="desc_one">Draw the animation paths</string>
     <string name="desc_two">Freeze areas you don\'t want to animatie</string>
     <string name="desc_three">Add dynamic effects to your pictures</string>
+    <string name="desc_four">Add motion to your pictures</string>
     <string name="menu_home">Home</string>
     <string name="menu_camera">Camera</string>
     <string name="menu_gallery">Gallery</string>

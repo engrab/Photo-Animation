@@ -48,6 +48,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <Button
+        android:id="@+id/nextFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:text="Finish"
+        android:visibility="gone"
+        android:textColor="@color/buttontext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
     <LinearLayout
         android:id="@+id/indicator_layout"
         android:layout_width="wrap_content"

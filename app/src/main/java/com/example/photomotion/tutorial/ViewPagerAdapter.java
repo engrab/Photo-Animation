@@ -23,7 +23,8 @@ public class ViewPagerAdapter extends PagerAdapter{
 
             "android.resource://com.example.photomotion/" + R.raw.video_file1,
             "android.resource://com.example.photomotion/" + R.raw.video_file2,
-            "android.resource://com.example.photomotion/" + R.raw.video_file3
+            "android.resource://com.example.photomotion/" + R.raw.video_file3,
+            "android.resource://com.example.photomotion/" + R.raw.video_file4
 
     };
 
@@ -31,14 +32,16 @@ public class ViewPagerAdapter extends PagerAdapter{
 
             R.string.heading_one,
             R.string.heading_two,
-            R.string.heading_three
+            R.string.heading_three,
+            R.string.heading_Four
     };
 
     int description[] = {
 
             R.string.desc_one,
             R.string.desc_two,
-            R.string.desc_three
+            R.string.desc_three,
+            R.string.desc_four
     };
 
     public ViewPagerAdapter(Activity context){
