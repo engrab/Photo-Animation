@@ -1,4 +1,4 @@
-package com.lgs.photomotion.model;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.model;
 
 public class StickerData {
     public boolean isSelected;

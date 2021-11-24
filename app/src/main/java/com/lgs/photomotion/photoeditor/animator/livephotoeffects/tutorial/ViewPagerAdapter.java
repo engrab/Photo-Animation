@@ -1,4 +1,4 @@
-package com.lgs.photomotion.tutorial;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.tutorial;
 
 import android.app.Activity;
 import android.media.MediaPlayer;

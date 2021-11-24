@@ -1,4 +1,4 @@
-package com.lgs.photomotion.callback;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.callback;
 
 public interface onVideoSaveListener {
         void onError(String str);

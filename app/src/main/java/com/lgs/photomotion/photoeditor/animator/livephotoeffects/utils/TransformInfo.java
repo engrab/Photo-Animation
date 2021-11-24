@@ -1,4 +1,4 @@
-package com.lgs.photomotion.utils;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils;
 
 public class TransformInfo {
     public float deltaAngle = 0.0f;

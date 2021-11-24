@@ -1,4 +1,4 @@
-package com.lgs.photomotion.customView.beans;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.beans;
 
 public class Vertice {
 

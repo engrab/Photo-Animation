@@ -1,7 +1,7 @@
-package com.lgs.photomotion.customView.controllersapp;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.controllersapp;
 
 import android.graphics.Bitmap;
-import com.lgs.photomotion.customView.beans.Ponto;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.beans.Ponto;
 
 import java.util.List;
 import java.util.Stack;

@@ -1,4 +1,4 @@
-package com.lgs.photomotion.customView;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView;
 
 import android.content.Context;
 import android.graphics.Bitmap;

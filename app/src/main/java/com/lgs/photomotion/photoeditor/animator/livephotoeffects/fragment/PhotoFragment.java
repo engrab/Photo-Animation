@@ -1,4 +1,4 @@
-package com.lgs.photomotion.fragment;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.fragment;
 
 import android.database.Cursor;
 import android.os.AsyncTask;
@@ -18,10 +18,10 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.photomotion.R;
-import com.lgs.photomotion.model.PhoneAlbum;
-import com.lgs.photomotion.model.PhonePhoto;
-import com.lgs.photomotion.adapter.PhoneAlbumAdapter;
-import com.lgs.photomotion.utils.GridSpacingItemDecoration;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.model.PhoneAlbum;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.model.PhonePhoto;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.adapter.PhoneAlbumAdapter;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.GridSpacingItemDecoration;
 
 import java.io.File;
 import java.util.Iterator;

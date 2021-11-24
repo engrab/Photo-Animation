@@ -1,4 +1,4 @@
-package com.lgs.photomotion.customView;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView;
 
 import android.annotation.TargetApi;
 import android.content.Context;

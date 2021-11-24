@@ -1,4 +1,4 @@
-package com.lgs.photomotion;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects;
 
 import android.Manifest;
 import android.app.Activity;
@@ -17,9 +17,9 @@ import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 
 import com.example.photomotion.R;
-import com.lgs.photomotion.callback.OnProgressReceiver;
-import com.lgs.photomotion.utils.AppHelper;
-import com.lgs.photomotion.utils.TypefaceUtil;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.callback.OnProgressReceiver;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.AppHelper;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.TypefaceUtil;
 import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.FullScreenContentCallback;

@@ -1,4 +1,4 @@
-package com.lgs.photomotion.tutorial;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.tutorial;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
@@ -14,7 +14,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.photomotion.R;
-import com.lgs.photomotion.activity.MainActivity;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity.MainActivity;
 
 public class TutorialActivity extends AppCompatActivity {
 

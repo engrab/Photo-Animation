@@ -1,4 +1,4 @@
-package com.lgs.photomotion.adapter;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -18,11 +18,11 @@ import com.bumptech.glide.load.engine.GlideException;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 import com.example.photomotion.R;
-import com.lgs.photomotion.activity.AlbumListActivity;
-import com.lgs.photomotion.utils.Share;
-import com.lgs.photomotion.utils.Share.KEYNAME;
-import com.lgs.photomotion.model.PhoneAlbum;
-import com.lgs.photomotion.model.PhonePhoto;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity.AlbumListActivity;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.Share;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.Share.KEYNAME;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.model.PhoneAlbum;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.model.PhonePhoto;
 
 import java.util.ArrayList;
 import java.util.Collections;

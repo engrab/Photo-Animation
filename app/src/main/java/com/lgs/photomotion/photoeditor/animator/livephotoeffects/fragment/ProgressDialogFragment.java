@@ -1,4 +1,4 @@
-package com.lgs.photomotion.fragment;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.fragment;
 
 import android.app.Dialog;
 import android.content.DialogInterface;

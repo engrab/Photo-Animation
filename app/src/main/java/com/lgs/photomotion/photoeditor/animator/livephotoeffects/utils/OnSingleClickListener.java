@@ -1,4 +1,4 @@
-package com.lgs.photomotion.utils;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils;
 
 import android.os.SystemClock;
 import android.view.View;

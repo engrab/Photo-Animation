@@ -1,4 +1,4 @@
-package com.lgs.photomotion.utils;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -7,9 +7,9 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.graphics.Bitmap.Config;
 import android.net.Uri;
 import android.util.Log;
-import com.lgs.photomotion.customView.beans.Ponto;
-import com.lgs.photomotion.customView.beans.Projeto;
-import com.lgs.photomotion.customView.controllersapp.Utils;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.beans.Ponto;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.beans.Projeto;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.controllersapp.Utils;
 
 public class DatabaseHandler extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "MotionInPhoto";

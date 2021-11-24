@@ -1,4 +1,4 @@
-package com.lgs.photomotion.photoAlbum;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.photoAlbum;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -23,10 +23,10 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.photomotion.R;
-import com.lgs.photomotion.activity.BaseActivity;
-import com.lgs.photomotion.activity.MainActivity;
-import com.lgs.photomotion.photoAlbum.AlbumAdapter.ClickListener;
-import com.lgs.photomotion.utils.GridSpacingItemDecoration;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity.BaseActivity;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity.MainActivity;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.photoAlbum.AlbumAdapter.ClickListener;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.GridSpacingItemDecoration;
 
 import java.util.ArrayList;
 import java.util.Collections;

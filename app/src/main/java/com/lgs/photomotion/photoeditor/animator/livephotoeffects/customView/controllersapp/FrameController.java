@@ -1,11 +1,11 @@
-package com.lgs.photomotion.customView.controllersapp;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.controllersapp;
 
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
 import android.graphics.Canvas;
-import com.lgs.photomotion.customView.Delaunay;
-import com.lgs.photomotion.customView.beans.Ponto;
-import com.lgs.photomotion.customView.beans.TrianguloBitmap;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.Delaunay;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.beans.Ponto;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.beans.TrianguloBitmap;
 
 public class FrameController {
     public static FrameController controller;

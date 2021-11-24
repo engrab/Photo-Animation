@@ -1,13 +1,13 @@
-package com.lgs.photomotion.customView;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView;
 
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
 import android.graphics.Canvas;
 import android.util.Log;
 
-import com.lgs.photomotion.customView.beans.Ponto;
-import com.lgs.photomotion.customView.beans.TrianguloBitmap;
-import com.lgs.photomotion.customView.beans.Vertice;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.beans.Ponto;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.beans.TrianguloBitmap;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.beans.Vertice;
 
 import java.util.Iterator;
 import java.util.List;

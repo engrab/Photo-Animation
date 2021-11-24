@@ -1,4 +1,4 @@
-package com.lgs.photomotion.photoAlbum;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.photoAlbum;
 
 import android.app.Activity;
 import android.content.Intent;

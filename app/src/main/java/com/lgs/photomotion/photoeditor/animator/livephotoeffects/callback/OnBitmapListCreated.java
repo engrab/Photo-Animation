@@ -1,4 +1,4 @@
-package com.lgs.photomotion.callback;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.callback;
 
 import android.graphics.Bitmap;
 import java.util.List;

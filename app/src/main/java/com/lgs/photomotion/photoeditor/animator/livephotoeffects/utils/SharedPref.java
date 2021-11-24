@@ -1,8 +1,8 @@
-package com.lgs.photomotion.utils;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils;
 
 import android.content.Context;
 
-import com.lgs.photomotion.ApplicationClass;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.ApplicationClass;
 
 public class SharedPref {
 

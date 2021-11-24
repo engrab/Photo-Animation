@@ -1,4 +1,4 @@
-package com.lgs.photomotion.customView;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -19,9 +19,9 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.content.ContextCompat;
 import com.airbnb.lottie.LottieAnimationView;
 import com.example.photomotion.R;
-import com.lgs.photomotion.customView.controllersapp.ToolsController;
-import com.lgs.photomotion.utils.BitmapHelper;
-import com.lgs.photomotion.callback.OnBitmapListCreated;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.controllersapp.ToolsController;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.BitmapHelper;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.callback.OnBitmapListCreated;
 
 import java.util.ArrayList;
 import java.util.List;

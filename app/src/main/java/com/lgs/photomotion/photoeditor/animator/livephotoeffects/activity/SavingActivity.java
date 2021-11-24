@@ -1,4 +1,4 @@
-package com.lgs.photomotion.activity;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -25,16 +25,16 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
-import com.lgs.photomotion.ApplicationClass;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.ApplicationClass;
 import com.example.photomotion.R;
-import com.lgs.photomotion.callback.OnProgressReceiver;
-import com.lgs.photomotion.callback.onVideoSaveListener;
-import com.lgs.photomotion.customView.beans.Projeto;
-import com.lgs.photomotion.customView.controllersapp.ToolsController;
-import com.lgs.photomotion.customView.controllersapp.Utils;
-import com.lgs.photomotion.customView.controllersapp.VideoSaver;
-import com.lgs.photomotion.photoAlbum.VideoPreviewActivity;
-import com.lgs.photomotion.utils.DatabaseHandler;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.callback.OnProgressReceiver;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.callback.onVideoSaveListener;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.beans.Projeto;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.controllersapp.ToolsController;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.controllersapp.Utils;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.controllersapp.VideoSaver;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.photoAlbum.VideoPreviewActivity;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.DatabaseHandler;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdLoader;
 import com.google.android.gms.ads.AdRequest;

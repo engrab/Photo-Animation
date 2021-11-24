@@ -1,4 +1,4 @@
-package com.lgs.photomotion.fragment;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.fragment;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -28,9 +28,9 @@ import com.isseiaoki.simplecropview.callback.CropCallback;
 import com.isseiaoki.simplecropview.callback.LoadCallback;
 import com.isseiaoki.simplecropview.callback.SaveCallback;
 import com.example.photomotion.R;
-import com.lgs.photomotion.activity.CropActivity;
-import com.lgs.photomotion.activity.AlbumListActivity;
-import com.lgs.photomotion.utils.Share;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity.CropActivity;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity.AlbumListActivity;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.Share;
 import java.io.File;
 
 public class MainFragment extends Fragment {

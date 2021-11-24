@@ -1,4 +1,4 @@
-package com.lgs.photomotion.customView.controllersapp;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.controllersapp;
 
 import android.app.Activity;
 import android.content.Context;
@@ -14,14 +14,14 @@ import android.graphics.Paint.Style;
 import android.graphics.Shader.TileMode;
 import android.os.AsyncTask;
 import android.util.Log;
-import com.lgs.photomotion.ApplicationClass;
-import com.lgs.photomotion.callback.OnProgressReceiver;
-import com.lgs.photomotion.callback.onVideoSaveListener;
-import com.lgs.photomotion.customView.Delaunay;
-import com.lgs.photomotion.customView.FFMPEGSaver;
-import com.lgs.photomotion.customView.ShareClass;
-import com.lgs.photomotion.customView.beans.Ponto;
-import com.lgs.photomotion.customView.beans.Projeto;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.ApplicationClass;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.callback.OnProgressReceiver;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.callback.onVideoSaveListener;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.Delaunay;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.FFMPEGSaver;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.ShareClass;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.beans.Ponto;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.beans.Projeto;
 
 import java.io.BufferedWriter;
 import java.io.File;

@@ -1,4 +1,4 @@
-package com.lgs.photomotion.customView.controllersapp;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.controllersapp;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -11,10 +11,10 @@ import android.graphics.PorterDuffXfermode;
 import android.graphics.Rect;
 import android.os.CountDownTimer;
 import android.util.Log;
-import com.lgs.photomotion.customView.Delaunay;
-import com.lgs.photomotion.customView.beans.Ponto;
-import com.lgs.photomotion.customView.beans.Projeto;
-import com.lgs.photomotion.customView.beans.TrianguloBitmap;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.Delaunay;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.beans.Ponto;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.beans.Projeto;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.beans.TrianguloBitmap;
 
 import java.util.LinkedList;
 import java.util.List;

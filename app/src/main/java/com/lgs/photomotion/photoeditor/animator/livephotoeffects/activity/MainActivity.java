@@ -1,4 +1,4 @@
-package com.lgs.photomotion.activity;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -39,12 +39,12 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.RequestBuilder;
-import com.lgs.photomotion.BuildConfig;
-import com.lgs.photomotion.ApplicationClass;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.BuildConfig;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.ApplicationClass;
 import com.example.photomotion.R;
-import com.lgs.photomotion.photoAlbum.MyAlbumActivity;
-import com.lgs.photomotion.tutorial.TutorialActivity;
-import com.lgs.photomotion.utils.Share;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.photoAlbum.MyAlbumActivity;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.tutorial.TutorialActivity;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.Share;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdLoader;
 import com.google.android.gms.ads.AdRequest;

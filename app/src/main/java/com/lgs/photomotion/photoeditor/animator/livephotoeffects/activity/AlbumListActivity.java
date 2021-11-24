@@ -1,4 +1,4 @@
-package com.lgs.photomotion.activity;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -11,11 +11,11 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.photomotion.R;
-import com.lgs.photomotion.adapter.PhoneAlbumImagesAdapter;
-import com.lgs.photomotion.utils.Share;
-import com.lgs.photomotion.utils.Share.KEYNAME;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.adapter.PhoneAlbumImagesAdapter;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.Share;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.Share.KEYNAME;
 //
-import com.lgs.photomotion.utils.GridSpacingItemDecoration;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.GridSpacingItemDecoration;
 
 public class AlbumListActivity extends Activity implements OnClickListener {
     public static AlbumListActivity activity;

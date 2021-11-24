@@ -1,4 +1,4 @@
-package com.lgs.photomotion.activity;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -7,7 +7,7 @@ import android.os.Handler;
 import android.os.Looper;
 
 import com.example.photomotion.R;
-import com.lgs.photomotion.tutorial.TutorialActivity;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.tutorial.TutorialActivity;
 
 public class SplashActivity extends BaseParentActivity {
 

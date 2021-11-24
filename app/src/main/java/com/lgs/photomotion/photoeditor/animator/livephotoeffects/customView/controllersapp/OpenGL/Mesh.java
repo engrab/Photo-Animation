@@ -1,4 +1,4 @@
-package com.lgs.photomotion.customView.controllersapp.OpenGL;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.controllersapp.OpenGL;
 
 import android.graphics.Bitmap;
 import android.opengl.GLUtils;

@@ -1,4 +1,4 @@
-package com.lgs.photomotion.customView;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView;
 
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -13,9 +13,9 @@ import android.provider.MediaStore;
 import android.util.Log;
 
 import com.arthenica.mobileffmpeg.FFmpeg;
-import com.lgs.photomotion.ApplicationClass;
-import com.lgs.photomotion.callback.onVideoSaveListener;
-import com.lgs.photomotion.customView.controllersapp.Utils;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.ApplicationClass;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.callback.onVideoSaveListener;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.controllersapp.Utils;
 
 import java.io.File;
 import java.io.FileInputStream;

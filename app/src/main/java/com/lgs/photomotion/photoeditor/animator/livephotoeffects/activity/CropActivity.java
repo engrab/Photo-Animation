@@ -1,4 +1,4 @@
-package com.lgs.photomotion.activity;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity;
 
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -10,8 +10,8 @@ import android.widget.RelativeLayout;
 import androidx.fragment.app.Fragment;
 
 import com.example.photomotion.R;
-import com.lgs.photomotion.fragment.MainFragment;
-import com.lgs.photomotion.utils.Share;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.fragment.MainFragment;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.Share;
 
 import static android.content.Intent.FLAG_RECEIVER_FOREGROUND;
 

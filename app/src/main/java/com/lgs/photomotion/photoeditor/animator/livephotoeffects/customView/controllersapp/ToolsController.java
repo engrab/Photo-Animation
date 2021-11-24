@@ -1,4 +1,4 @@
-package com.lgs.photomotion.customView.controllersapp;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.controllersapp;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -28,16 +28,16 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.photomotion.R;
-import com.lgs.photomotion.activity.MotionEditActivity;
-import com.lgs.photomotion.callback.OnClickListner;
-import com.lgs.photomotion.callback.OnStickerClickListner;
-import com.lgs.photomotion.customView.beans.Ponto;
-import com.lgs.photomotion.customView.beans.TrianguloBitmap;
-import com.lgs.photomotion.customView.controllersapp.AnimacaoController.IteradorDePonto;
-import com.lgs.photomotion.model.EffectData;
-import com.lgs.photomotion.model.StickerData;
-import com.lgs.photomotion.adapter.EffectAdapter;
-import com.lgs.photomotion.adapter.StickerAdapter;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity.MotionEditActivity;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.callback.OnClickListner;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.callback.OnStickerClickListner;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.beans.Ponto;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.beans.TrianguloBitmap;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.controllersapp.AnimacaoController.IteradorDePonto;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.model.EffectData;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.model.StickerData;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.adapter.EffectAdapter;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.adapter.StickerAdapter;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.text.NumberFormat;

@@ -1,4 +1,4 @@
-package com.lgs.photomotion.activity;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -16,7 +16,7 @@ import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
-import com.lgs.photomotion.utils.AppHelper;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.AppHelper;
 import com.google.android.gms.ads.LoadAdError;
 
 public abstract class BaseParentActivity extends AppCompatActivity {

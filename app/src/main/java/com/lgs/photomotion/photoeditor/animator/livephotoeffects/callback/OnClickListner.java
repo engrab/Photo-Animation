@@ -1,6 +1,6 @@
-package com.lgs.photomotion.callback;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.callback;
 
-import com.lgs.photomotion.model.EffectData;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.model.EffectData;
 
 public interface OnClickListner {
     void onClick(EffectData effectData, int i);

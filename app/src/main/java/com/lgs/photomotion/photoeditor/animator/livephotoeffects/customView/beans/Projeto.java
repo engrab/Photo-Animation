@@ -1,4 +1,4 @@
-package com.lgs.photomotion.customView.beans;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.beans;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -14,10 +14,10 @@ import android.os.ParcelFileDescriptor;
 import android.os.Parcelable;
 import android.text.TextUtils;
 import android.util.Log;
-import com.lgs.photomotion.activity.SavingActivity;
-import com.lgs.photomotion.customView.controllersapp.ToolsController;
-import com.lgs.photomotion.customView.controllersapp.Utils;
-import com.lgs.photomotion.utils.DatabaseHandler;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity.SavingActivity;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.controllersapp.ToolsController;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.controllersapp.Utils;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.DatabaseHandler;
 
 import java.io.File;
 import java.io.FileNotFoundException;

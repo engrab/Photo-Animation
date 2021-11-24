@@ -1,4 +1,4 @@
-package com.lgs.photomotion.adapter;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.adapter;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -10,9 +10,9 @@ import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView.Adapter;
 import com.example.photomotion.R;
-import com.lgs.photomotion.model.StickerData;
-import com.lgs.photomotion.utils.OnSingleClickListener;
-import com.lgs.photomotion.callback.OnStickerClickListner;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.model.StickerData;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.OnSingleClickListener;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.callback.OnStickerClickListner;
 
 import java.util.List;
 

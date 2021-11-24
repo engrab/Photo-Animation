@@ -1,4 +1,4 @@
-package com.lgs.photomotion;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects;
 
 import android.app.Activity;
 import android.app.Application;
@@ -10,8 +10,8 @@ import androidx.lifecycle.OnLifecycleEvent;
 import androidx.lifecycle.ProcessLifecycleOwner;
 
 import com.example.photomotion.R;
-import com.lgs.photomotion.activity.SplashActivity;
-import com.lgs.photomotion.utils.AppHelper;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity.SplashActivity;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.AppHelper;
 import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.FullScreenContentCallback;

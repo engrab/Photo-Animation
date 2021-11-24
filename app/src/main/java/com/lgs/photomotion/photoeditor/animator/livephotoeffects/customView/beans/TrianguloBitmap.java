@@ -1,4 +1,4 @@
-package com.lgs.photomotion.customView.beans;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.beans;
 
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
@@ -11,8 +11,8 @@ import android.graphics.Paint.Style;
 import android.graphics.Path;
 import android.graphics.Shader.TileMode;
 import android.util.Log;
-import com.lgs.photomotion.customView.beans.Vertice.PacoteDistanciaVertice;
-import com.lgs.photomotion.customView.controllersapp.ToolsController;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.beans.Vertice.PacoteDistanciaVertice;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.controllersapp.ToolsController;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package com.lgs.photomotion.customView.beans;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.beans;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;

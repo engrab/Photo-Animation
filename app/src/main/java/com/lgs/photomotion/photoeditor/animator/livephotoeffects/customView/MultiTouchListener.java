@@ -1,10 +1,10 @@
-package com.lgs.photomotion.customView;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView;
 
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
 import com.example.photomotion.R;
-import com.lgs.photomotion.utils.TransformInfo;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.TransformInfo;
 
 public class MultiTouchListener implements OnTouchListener {
     public static final int INVALID_POINTER_ID = -1;

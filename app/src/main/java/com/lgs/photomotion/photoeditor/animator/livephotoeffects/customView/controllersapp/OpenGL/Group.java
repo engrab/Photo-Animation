@@ -1,4 +1,4 @@
-package com.lgs.photomotion.customView.controllersapp.OpenGL;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.controllersapp.OpenGL;
 
 import java.util.Vector;
 import javax.microedition.khronos.opengles.GL10;

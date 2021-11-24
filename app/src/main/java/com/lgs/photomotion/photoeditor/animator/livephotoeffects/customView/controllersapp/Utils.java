@@ -1,4 +1,4 @@
-package com.lgs.photomotion.customView.controllersapp;
+package com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.controllersapp;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -35,9 +35,9 @@ import android.widget.Toast;
 import androidx.core.content.FileProvider;
 import androidx.core.content.res.ResourcesCompat;
 
-import com.lgs.photomotion.BuildConfig;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.BuildConfig;
 import com.example.photomotion.R;
-import com.lgs.photomotion.activity.MotionEditActivity;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity.MotionEditActivity;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
