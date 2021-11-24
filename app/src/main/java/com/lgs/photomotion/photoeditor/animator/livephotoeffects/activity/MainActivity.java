@@ -199,7 +199,7 @@ public class MainActivity extends BaseParentActivity implements OnClickListener 
 
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_main);
         this.moActivity = this;
         setToolbar();
         initViews();
@@ -623,8 +623,8 @@ public class MainActivity extends BaseParentActivity implements OnClickListener 
     }
 
     @Override
-    public void onRequestPermissionsResult(int requestCode, String[] permissions,
-                                           int[] grantResults) {
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
+                                           @NonNull int[] grantResults) {
 
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         switch (requestCode) {

@@ -21,10 +21,10 @@ android {
             resValue 'string', 'ad_mob_app_open_id', '"ca-app-pub-3940256099942544/3419835294"'
 
 
-            debuggable true
-            minifyEnabled true
-            shrinkResources true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            debuggable true
+//            minifyEnabled true
+//            shrinkResources true
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
 
         release {
@@ -35,7 +35,6 @@ android {
             resValue 'string', 'ad_mob_native_id', '"ca-app-pub-7656094649470424/8539416175"'
             resValue 'string', 'ad_mob_app_open_id', '"ca-app-pub-3940256099942544/3419835294"'
 
-
             debuggable false
             minifyEnabled true
             shrinkResources true
@@ -45,16 +44,10 @@ android {
 
     }
 
-//    signingConfigs {
-//        config {
-//            keyAlias 'key0'
-//            keyPassword 'bombss'
-//            storeFile file('../keystore/PhotoMotion.jks')
-//            storePassword 'bombss'
-//        }
-//    }
+
     configurations.all {
         resolutionStrategy.force 'com.google.code.findbugs:jsr305:3.0.2'
+
     }
     packagingOptions {
         exclude 'META-INF/DEPENDENCIES'
@@ -72,21 +65,21 @@ android {
     }
 
 
-bundle {
-    density {
-        // Different APKs are generated for devices with different screen densities; true by default.
-        enableSplit true
-    }
-    abi {
-        // Different APKs are generated for devices with different CPU architectures; true by default.
-        enableSplit true
-    }
-    language {
-        // This is disabled so that the App Bundle does NOT split the APK for each language.
-        // We're gonna use the same APK for all languages.
-        enableSplit false
-    }
-}
+//bundle {
+//    density {
+//        // Different APKs are generated for devices with different screen densities; true by default.
+//        enableSplit true
+//    }
+//    abi {
+//        // Different APKs are generated for devices with different CPU architectures; true by default.
+//        enableSplit true
+//    }
+//    language {
+//        // This is disabled so that the App Bundle does NOT split the APK for each language.
+//        // We're gonna use the same APK for all languages.
+//        enableSplit false
+//    }
+//}
     buildFeatures {
         viewBinding true
     }
@@ -122,12 +115,12 @@ dependencies {
 
     implementation 'com.arthenica:mobile-ffmpeg-min-gpl:4.4'
 
-    def lifecycle_version = "2.0.0"
+    def lifecycle_version = "2.2.0"
     implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
     implementation "androidx.lifecycle:lifecycle-runtime:$lifecycle_version"
 
     // ads
-    implementation 'com.google.android.gms:play-services-ads:20.2.0'
-//    implementation 'com.google.ads.mediation:facebook:6.8.0.0'
+    implementation 'com.google.android.gms:play-services-ads:20.5.0'
+    implementation 'com.google.ads.mediation:facebook:6.8.0.0'
 }
 
