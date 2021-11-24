@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 
-import com.example.photomotion.R;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.R;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.tutorial.TutorialActivity;
 
 public class SplashActivity extends BaseParentActivity {

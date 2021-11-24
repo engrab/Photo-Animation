@@ -27,7 +27,7 @@ import com.isseiaoki.simplecropview.CropImageView.RotateDegrees;
 import com.isseiaoki.simplecropview.callback.CropCallback;
 import com.isseiaoki.simplecropview.callback.LoadCallback;
 import com.isseiaoki.simplecropview.callback.SaveCallback;
-import com.example.photomotion.R;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.R;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity.CropActivity;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity.AlbumListActivity;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.Share;

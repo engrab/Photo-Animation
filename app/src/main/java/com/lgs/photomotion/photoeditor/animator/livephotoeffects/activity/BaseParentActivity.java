@@ -11,7 +11,7 @@ import android.widget.RelativeLayout;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.photomotion.R;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.R;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;

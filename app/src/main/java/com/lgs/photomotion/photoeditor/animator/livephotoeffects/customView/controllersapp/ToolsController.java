@@ -27,7 +27,7 @@ import androidx.core.content.res.ResourcesCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.photomotion.R;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.R;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity.MotionEditActivity;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.callback.OnClickListner;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.callback.OnStickerClickListner;

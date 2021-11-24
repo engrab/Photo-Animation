@@ -26,7 +26,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.ApplicationClass;
-import com.example.photomotion.R;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.R;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.callback.OnProgressReceiver;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.callback.onVideoSaveListener;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.beans.Projeto;

@@ -9,7 +9,7 @@ import android.widget.Toast;
 import androidx.core.app.ShareCompat.IntentBuilder;
 import androidx.core.content.FileProvider;
 
-import com.example.photomotion.R;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.R;
 
 import java.io.File;
 

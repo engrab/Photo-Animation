@@ -15,7 +15,7 @@ import android.widget.VideoView;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
-import com.example.photomotion.R;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.R;
 
 public class ViewPagerAdapter extends PagerAdapter{
     Activity context;

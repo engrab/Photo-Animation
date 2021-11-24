@@ -13,7 +13,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.photomotion.R;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.R;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity.MainActivity;
 
 public class TutorialActivity extends AppCompatActivity {

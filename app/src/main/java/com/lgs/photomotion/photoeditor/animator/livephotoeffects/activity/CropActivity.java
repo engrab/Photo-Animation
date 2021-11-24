@@ -9,7 +9,7 @@ import android.widget.RelativeLayout;
 
 import androidx.fragment.app.Fragment;
 
-import com.example.photomotion.R;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.R;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.fragment.MainFragment;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.Share;
 

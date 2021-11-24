@@ -17,7 +17,7 @@ import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.engine.GlideException;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
-import com.example.photomotion.R;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.R;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity.AlbumListActivity;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.Share;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.Share.KEYNAME;

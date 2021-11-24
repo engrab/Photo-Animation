@@ -16,7 +16,7 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 
-import com.example.photomotion.R;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.R;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.callback.OnProgressReceiver;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.AppHelper;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.TypefaceUtil;

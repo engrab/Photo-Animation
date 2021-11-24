@@ -36,7 +36,7 @@ import androidx.core.content.FileProvider;
 import androidx.core.content.res.ResourcesCompat;
 
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.BuildConfig;
-import com.example.photomotion.R;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.R;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity.MotionEditActivity;
 
 import java.io.ByteArrayOutputStream;

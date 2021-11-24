@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import com.example.photomotion.R;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.R;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.adapter.PhoneAlbumImagesAdapter;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.Share;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.Share.KEYNAME;

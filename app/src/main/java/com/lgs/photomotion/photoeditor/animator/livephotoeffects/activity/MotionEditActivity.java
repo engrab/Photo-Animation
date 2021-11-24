@@ -46,7 +46,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import com.airbnb.lottie.LottieAnimationView;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.ApplicationClass;
-import com.example.photomotion.R;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.R;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.callback.OnBitmapListCreated;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.CustomAnimationView;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView.LupaImageView;

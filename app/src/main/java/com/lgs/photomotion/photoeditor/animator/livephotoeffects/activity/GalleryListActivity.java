@@ -20,7 +20,7 @@ import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
-import com.example.photomotion.R;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.R;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.fragment.PhotoFragment;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.Share;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.AppHelper;

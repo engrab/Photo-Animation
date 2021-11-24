@@ -29,7 +29,7 @@ import androidx.core.content.FileProvider;
 
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.ApplicationClass;
 import com.bumptech.glide.Glide;
-import com.example.photomotion.R;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.R;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity.BaseActivity;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.SharedPref;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.VideoWallpaperService;

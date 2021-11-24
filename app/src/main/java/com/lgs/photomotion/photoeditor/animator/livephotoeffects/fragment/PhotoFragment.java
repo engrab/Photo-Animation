@@ -17,7 +17,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.photomotion.R;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.R;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.model.PhoneAlbum;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.model.PhonePhoto;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.adapter.PhoneAlbumAdapter;

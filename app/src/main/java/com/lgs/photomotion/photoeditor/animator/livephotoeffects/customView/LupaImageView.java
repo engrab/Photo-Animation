@@ -12,7 +12,7 @@ import android.graphics.PorterDuffXfermode;
 import android.os.AsyncTask;
 import android.util.AttributeSet;
 import androidx.appcompat.widget.AppCompatImageView;
-import com.example.photomotion.R;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.R;
 
 public class LupaImageView extends AppCompatImageView {
     public static int TAMANHO_LUPA = 300;

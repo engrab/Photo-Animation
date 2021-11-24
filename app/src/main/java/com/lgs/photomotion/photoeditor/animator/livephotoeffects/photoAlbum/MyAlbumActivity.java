@@ -22,7 +22,7 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.photomotion.R;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.R;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity.BaseActivity;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity.MainActivity;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.photoAlbum.AlbumAdapter.ClickListener;

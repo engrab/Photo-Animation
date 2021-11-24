@@ -9,7 +9,7 @@ import androidx.lifecycle.LifecycleObserver;
 import androidx.lifecycle.OnLifecycleEvent;
 import androidx.lifecycle.ProcessLifecycleOwner;
 
-import com.example.photomotion.R;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.R;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.activity.SplashActivity;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.AppHelper;
 import com.google.android.gms.ads.AdError;

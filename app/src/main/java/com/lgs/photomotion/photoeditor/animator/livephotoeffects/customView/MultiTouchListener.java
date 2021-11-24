@@ -3,7 +3,7 @@ package com.lgs.photomotion.photoeditor.animator.livephotoeffects.customView;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
-import com.example.photomotion.R;
+import com.lgs.photomotion.photoeditor.animator.livephotoeffects.R;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.TransformInfo;
 
 public class MultiTouchListener implements OnTouchListener {
