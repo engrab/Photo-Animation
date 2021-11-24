@@ -16,6 +16,8 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.R;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.callback.OnProgressReceiver;
 import com.lgs.photomotion.photoeditor.animator.livephotoeffects.utils.AppHelper;
@@ -57,7 +59,12 @@ public class ApplicationClass extends Application {
     public void onCreate() {
         super.onCreate();
         setApplication(this);
-        MobileAds.initialize(this);
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(@NonNull InitializationStatus initializationStatus) {
+
+            }
+        });
         StrictMode.setVmPolicy(new Builder().build());
         TypefaceUtil.overrideFont(getApplicationContext(), "serif", "fonts/OpenSans-Regular.ttf");
         setContext(getApplicationContext());

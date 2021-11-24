@@ -211,6 +211,7 @@ public class MainActivity extends BaseParentActivity implements OnClickListener 
         }
     }
 
+    @Override
     public void onBackPressed() {
         if (doubleBackToExitPressedOnce) {
             super.onBackPressed();
