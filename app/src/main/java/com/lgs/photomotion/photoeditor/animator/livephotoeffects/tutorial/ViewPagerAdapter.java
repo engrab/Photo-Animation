@@ -21,10 +21,10 @@ public class ViewPagerAdapter extends PagerAdapter{
     Activity context;
     String[] video = {
 
-            "android.resource://com.example.photomotion/" + R.raw.video_file1,
-            "android.resource://com.example.photomotion/" + R.raw.video_file2,
-            "android.resource://com.example.photomotion/" + R.raw.video_file3,
-            "android.resource://com.example.photomotion/" + R.raw.video_file4
+            "android.resource://com.lgs.photomotion.photoeditor.animator.livephotoeffects/" + R.raw.video_file1,
+            "android.resource://com.lgs.photomotion.photoeditor.animator.livephotoeffects/" + R.raw.video_file2,
+            "android.resource://com.lgs.photomotion.photoeditor.animator.livephotoeffects/" + R.raw.video_file3,
+            "android.resource://com.lgs.photomotion.photoeditor.animator.livephotoeffects/" + R.raw.video_file4
 
     };
 

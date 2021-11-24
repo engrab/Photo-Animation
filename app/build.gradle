@@ -4,7 +4,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 31
     defaultConfig {
-        applicationId "com.lgs.photomotion.photoeditor.animator.livephotoeffects.photoeditor.animator.livephotoeffects"
+        applicationId "com.lgs.photomotion.photoeditor.animator.livephotoeffects"
         minSdkVersion 24
         targetSdkVersion 31
         versionCode 1
@@ -65,21 +65,21 @@ android {
     }
 
 
-//bundle {
-//    density {
-//        // Different APKs are generated for devices with different screen densities; true by default.
-//        enableSplit true
-//    }
-//    abi {
-//        // Different APKs are generated for devices with different CPU architectures; true by default.
-//        enableSplit true
-//    }
-//    language {
-//        // This is disabled so that the App Bundle does NOT split the APK for each language.
-//        // We're gonna use the same APK for all languages.
-//        enableSplit false
-//    }
-//}
+bundle {
+    density {
+        // Different APKs are generated for devices with different screen densities; true by default.
+        enableSplit true
+    }
+    abi {
+        // Different APKs are generated for devices with different CPU architectures; true by default.
+        enableSplit true
+    }
+    language {
+        // This is disabled so that the App Bundle does NOT split the APK for each language.
+        // We're gonna use the same APK for all languages.
+        enableSplit false
+    }
+}
     buildFeatures {
         viewBinding true
     }
@@ -117,10 +117,10 @@ dependencies {
 
     def lifecycle_version = "2.2.0"
     implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
-    implementation "androidx.lifecycle:lifecycle-runtime:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-runtime:2.4.0"
 
     // ads
-    implementation 'com.google.android.gms:play-services-ads:20.5.0'
-    implementation 'com.google.ads.mediation:facebook:6.8.0.0'
+    implementation 'com.google.android.gms:play-services-ads:20.4.0'
+    implementation 'com.google.ads.mediation:facebook:6.7.0.0'
 }
 
