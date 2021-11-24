@@ -4,7 +4,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 31
     defaultConfig {
-        applicationId "com.example.photomotion"
+        applicationId "com.lgs.photomotion.photoeditor.animator.livephotoeffects"
         minSdkVersion 24
         targetSdkVersion 31
         versionCode 1
@@ -29,10 +29,10 @@ android {
 
         release {
 
-            resValue 'string', 'ad_mob_app_id', '"ca-app-pub-3940256099942544~3347511713"'
-            resValue 'string', 'ad_mob_interstitial_id', '"ca-app-pub-3940256099942544/1033173712"'
-            resValue 'string', 'ad_mob_banner_id', '"ca-app-pub-3940256099942544/6300978111"'
-            resValue 'string', 'ad_mob_native_id', '"ca-app-pub-3940256099942544/2247696110"'
+            resValue 'string', 'ad_mob_app_id', '"ca-app-pub-7656094649470424~6891669615"'
+            resValue 'string', 'ad_mob_interstitial_id', '"ca-app-pub-7656094649470424/7952258664"'
+            resValue 'string', 'ad_mob_banner_id', '"ca-app-pub-7656094649470424/2891503671"'
+            resValue 'string', 'ad_mob_native_id', '"ca-app-pub-7656094649470424/8539416175"'
             resValue 'string', 'ad_mob_app_open_id', '"ca-app-pub-3940256099942544/3419835294"'
 
 

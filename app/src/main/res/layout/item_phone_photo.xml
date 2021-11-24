@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.example.photomotion.customView.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.lgs.photomotion.customView.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/square_bg"
     android:layout_width="match_parent"
@@ -52,4 +52,4 @@
             android:singleLine="true"
             android:layout_alignParentBottom="true" />
     </RelativeLayout>
-</com.example.photomotion.customView.SquareLayout>
+</com.lgs.photomotion.customView.SquareLayout>
