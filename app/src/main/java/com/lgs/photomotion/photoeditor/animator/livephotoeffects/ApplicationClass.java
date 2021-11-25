@@ -65,6 +65,7 @@ public class ApplicationClass extends Application {
 
             }
         });
+
         StrictMode.setVmPolicy(new Builder().build());
         TypefaceUtil.overrideFont(getApplicationContext(), "serif", "fonts/OpenSans-Regular.ttf");
         setContext(getApplicationContext());
