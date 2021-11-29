@@ -34,7 +34,7 @@ android {
             resValue 'string', 'ad_mob_interstitial_id', '"ca-app-pub-7656094649470424/7952258664"'
             resValue 'string', 'ad_mob_banner_id', '"ca-app-pub-7656094649470424/2891503671"'
             resValue 'string', 'ad_mob_native_id', '"ca-app-pub-7656094649470424/8539416175"'
-            resValue 'string', 'ad_mob_app_open_id', '"ca-app-pub-3940256099942544/3419835294"'
+            resValue 'string', 'ad_mob_app_open_id', '"ca-app-pub-7656094649470424/9084235294"'
 
             debuggable false
             minifyEnabled true
